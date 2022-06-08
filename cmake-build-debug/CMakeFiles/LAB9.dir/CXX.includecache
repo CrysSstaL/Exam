@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shishkin/Desktop/CLion/LAB/files/bmp_9.cpp
+bmp_9.hpp
+/Users/shishkin/Desktop/CLion/LAB/files/bmp_9.hpp
+
+/Users/shishkin/Desktop/CLion/LAB/files/bmp_9.hpp
+iostream
+-
+fstream
+-
+

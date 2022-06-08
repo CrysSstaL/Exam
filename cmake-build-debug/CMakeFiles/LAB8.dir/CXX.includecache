@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shishkin/Desktop/CLion/LAB/Lab_8.cpp
+iostream
+-
+cassert
+/Users/shishkin/Desktop/CLion/LAB/cassert
+lab_8.h
+/Users/shishkin/Desktop/CLion/LAB/lab_8.h
+
+/Users/shishkin/Desktop/CLion/LAB/lab_8.h
+iostream
+-
+sstream
+-
+

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shishkin/Desktop/CLion/LAB/Lab_11.cpp
+iostream
+/Users/shishkin/Desktop/CLion/LAB/iostream
+files/lab_11_header.h
+/Users/shishkin/Desktop/CLion/LAB/files/lab_11_header.h
+
+/Users/shishkin/Desktop/CLion/LAB/files/lab_11_header.h
+iostream
+/Users/shishkin/Desktop/CLion/LAB/files/iostream
+vector
+/Users/shishkin/Desktop/CLion/LAB/files/vector
+

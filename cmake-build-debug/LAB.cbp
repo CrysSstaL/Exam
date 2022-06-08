@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="LAB"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\opt\;CMake Files\..\..\..\..\..\opt\homebrew\;CMake Files\..\..\..\..\..\opt\homebrew\lib\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\;CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB13">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB13"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB13/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB13" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB13/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="test/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 test/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EXAM">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/EXAM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 EXAM"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="EXAM/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/EXAM" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/opt/homebrew/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 EXAM/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB4">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB4"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB4/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB4" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB4/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB10">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB10"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB10/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB10" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB10/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB5">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB5"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB5/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB5" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB5/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB9">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB9"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB9/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB9" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB9/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB2">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB2/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB8">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB8"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB8/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB8" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB8/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB1">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB1/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB7">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB7"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB7/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB7" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB7/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB11">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB11"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB11/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB11" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB11/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB6">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB6"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB6/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB6" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB6/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB3">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB3"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB3/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB3" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB3/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB12">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB12"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB12/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB12" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB12/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB6.1">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB6.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB6.1"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="LAB6.1/fast">
+				<Option output="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/LAB6.1" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DSFML_STATIC"/>
+					<Add directory="/"/>
+					<Add directory="/Users/shishkin/Desktop/CLion/LAB/ext/SFML/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../include/c++/v1"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/13.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 LAB6.1/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/shishkin/Desktop/CLion/LAB/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/EXAM.cpp">
+			<Option target="EXAM"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/LAB_3.cpp">
+			<Option target="LAB3"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_10.cpp">
+			<Option target="LAB10"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_11.cpp">
+			<Option target="LAB11"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_2.cpp">
+			<Option target="LAB2"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_5.cpp">
+			<Option target="LAB5"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_6.1.cpp">
+			<Option target="LAB6.1"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_6.cpp">
+			<Option target="LAB6"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_7.cpp">
+			<Option target="LAB7"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_8.cpp">
+			<Option target="LAB8"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_8.h">
+			<Option target="LAB8"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/Lab_9.cpp">
+			<Option target="LAB9"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/bmp_10.cpp">
+			<Option target="LAB10"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/bmp_10.hpp">
+			<Option target="LAB10"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/bmp_9.cpp">
+			<Option target="LAB9"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/bmp_9.hpp">
+			<Option target="LAB9"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/inc/camera.hpp">
+			<Option target="LAB13"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/inc/scene.hpp">
+			<Option target="LAB13"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/lab_11_header.h">
+			<Option target="LAB11"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/src/camera.cpp">
+			<Option target="LAB13"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/files/src/scene.cpp">
+			<Option target="LAB13"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/lab_1.cpp">
+			<Option target="LAB1"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/lab_12.cpp">
+			<Option target="LAB12"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/lab_13.cpp">
+			<Option target="LAB13"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/lab_4.cpp">
+			<Option target="LAB4"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/lab_8.h">
+			<Option target="LAB13"/>
+			<Option target="LAB10"/>
+			<Option target="LAB8"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/src/functions.cpp">
+			<Option target="EXAM"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/test.cpp">
+			<Option target="test"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/../../../../../opt/homebrew/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+		<Unit filename="/Users/shishkin/Desktop/CLion/LAB/../../../../../opt/homebrew/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\opt\homebrew\lib\cmake\SFML\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

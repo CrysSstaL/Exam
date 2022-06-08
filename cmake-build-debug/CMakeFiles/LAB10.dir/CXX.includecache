@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/shishkin/Desktop/CLion/LAB/files/bmp_10.cpp
+bmp_10.hpp
+/Users/shishkin/Desktop/CLion/LAB/files/bmp_10.hpp
+/Users/shishkin/Desktop/TEST/matrix.hpp
+-
+math.h
+/Users/shishkin/Desktop/CLion/LAB/files/math.h
+
+/Users/shishkin/Desktop/CLion/LAB/files/bmp_10.hpp
+iostream
+-
+fstream
+-
+string
+/Users/shishkin/Desktop/CLion/LAB/files/string
+/Users/shishkin/Desktop/CLion/LAB/lab_8.h
+-
+
+/Users/shishkin/Desktop/CLion/LAB/lab_8.h
+iostream
+-
+
+/Users/shishkin/Desktop/TEST/matrix.hpp
+iostream
+-
+
